@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website Resume</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+
+    <!-------------------------- Header Area -------------------------->
+
+    <!-- Desktop Navigation -->  
+    <nav id="desktop-nav">
+      <div class="logo">Elisha Mier</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Mobile Navigation --> 
+    <nav id="hamburger-nav">
+      <div class="logo">Elisha Mier</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    
+    <!-------------------------- Profile -------------------------->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/picture_no_bg.png" alt="Elisha Mier profile picture" />
+      </div>
+      <div class="section__text">
+        <h1 class="title">Elisha Mier</h1>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume3.pdf')"
+          >
+            Download Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/elisha-mier-520305327/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Elishareign'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- About Me -------------------------->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/pink.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1 year <br />System Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Science<br />in Information Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                I am a 3rd year Information Technology student at the Polytechnic University of the Philippines. 
+                I have a passion for exploring various fields, particularly software development, data management, and
+                system design, graphic design. In addition to my technical interests, I also enjoy painting and sketching.
+                I'm always curious and enjoy trying out new things, whether it's building 
+                them or learning how they work. As I continue to pursue my degree, I look forward to 
+                expanding my knowledge and taking on more challenging projects that push my boundaries. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow_pink.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+
+    <!-------------------------- Skills -------------------------->
+    <section id="skills">
+      <p class="section__text__p1">Discover My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Winforms</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tkinter</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>FlutterFlow</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQLite</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL Server</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow_pink.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+  <!-------------------------- Projects -------------------------->
+
+    <section id="projects">
+      <section class="project-content">
+          <div class="container">
+              <div class="project-title">
+                  <h4>My Projects</h4>
+                  <p>Discover my projects I did for my 2nd and 3rd years of college.</p>
+              </div>
+              <div class="projects">
+                  <!-- 1st Project -->  
+                  <div class="project">
+                      <i class="fa fa-coffee"></i>
+                      <h4>Waste Tracker</h4>
+                      <p>This is a simple mobile application designed to help users monitor, manage, and reduce waste.</p>
+                      <div class="btn-container">
+                          <button class="btn btn-color-2" onclick="location.href='https://app.flutterflow.io/project/waste-track-usw3vd'">FlutterFlow</button>
+                      </div>
+                  </div>
+                  <!-- 2nd Project -->
+                  <div class="project">
+                      <i class="fa fa-car"></i>
+                      <h4>Hotel Management System</h4>
+                      <p>A system designed to streamline various operational functions within a hotel such as booking, billing, and room management.</p>
+                      <div class="btn-container">
+                          <button class="btn btn-color-2" onclick="location.href='https://github.com/Elishareign/Hotel_Management_System'">Github</button>
+                      </div> 
+                  </div>
+                  <!-- 3rd Project -->
+                  <div class="project">
+                      <i class="fa fa-desktop"></i>
+                      <h4>Audiovisual Rental System</h4>
+                      <p>Software application designed to facilitate management of audiovisual rental services.</p>
+                      <div class="btn-container">
+                          <button class="btn btn-color-2" onclick="location.href='https://github.com/Elishareign/AudioVisualRentalSystem'">Github</button>
+                      </div>
+                  </div>
+              </div>
+  
+  <!-------------------------- Research -------------------------->
+              <div class="research-title">
+                  <h4>Research</h4>
+                  <p>Here are some research projects I've worked on during my Senior High School.</p>
+              </div>
+              <div class="research">
+                  <!-- 1st Research Container -->
+                  <div class="research-item">
+                      <h4>Research Project 1</h4>
+                      <p>Effectiveness of Orange Peel Biochar as Soil Amendment 
+                        for Pechay (Brassica Rapa Subsp. Chinensis) Growth</p>
+                      <div class="btn-container">
+                          <button class="btn btn-color-2" onclick="window.open('./assets/Resarch1.pdf')">Check PDF</button>
+                      </div>
+                  </div>
+                  <!-- 2nd Research Container -->
+                  <div class="research-item">
+                      <h4>Research Project 2</h4>
+                      <p>Correlation Between Sleep Duration and Academic Performance of 
+                        SHS Students of Commonwealth High School</p>
+                      <div class="btn-container">
+                          <button class="btn btn-color-2"  onclick="window.open('./assets/Research2.pdf')">Check PDF</button>
+                      </div>
+                  </div>   
+              </div>
+  
+              <img
+                  src="./assets/arrow_pink.png"
+                  alt="Arrow icon"
+                  class="icon arrow"
+                  onclick="location.href='./#contact'"
+              />
+          </div>
+      </section>
+  </section>
+
+
+    <!-------------------------- Contact -------------------------->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a>elishamier13@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/elisha-mier-520305327/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
