@@ -115,6 +115,8 @@ nav {
   font-size: 1.5rem;
 }
 
+
+
 a {
   color: rgb(241, 151, 163);
   text-decoration: none;
@@ -446,6 +448,8 @@ article .icon {
 /*--------------------------- Projects ---------------------------*/
 #projects {
   position: relative;
+  max-width: 1400px; 
+  margin: 0 auto; 
 }
 
 .project-content {
@@ -454,6 +458,7 @@ article .icon {
 
 .project-title {
   margin-bottom: 60px;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -472,8 +477,8 @@ article .icon {
 
 .projects {
   display: flex;
-  justify-content: space-around; 
-  flex-wrap: wrap; 
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .project {
@@ -481,29 +486,45 @@ article .icon {
   color: rgb(241, 151, 163);
   border: 2px solid rgb(241, 151, 163);
   border-radius: 10px;
-  width: calc(33% - 20px); 
+  width: calc(32% - 20px); 
   text-align: center;
+  margin: 10px;
   margin-bottom: 20px; 
   box-sizing: border-box; 
   transition: all 0.3s ease-in-out; 
 }
 
-.project:hover {
-  background-color: rgb(238,191,209); 
-  color: white; 
-  border-color: transparent; 
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+.project-image {
+  order: 2; 
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .project h4 {
   font-size: 1.50rem;
   margin: 20px 0;
+  order: 1; 
 }
 
 .project p {
   text-align: left;
   font-size: 1.25rem; 
   line-height: 1.6; 
+}
+
+.project-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; 
+  max-height: 200px;
+}
+
+
+.project:hover {
+  background-color: rgb(238,191,209); 
+  color: white; 
+  border-color: transparent; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
 }
 
 .project .btn, .research-item .btn {
@@ -611,4 +632,19 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.scroll-to-top {
+  width: 30px; 
+  height: 30px; 
+}
+
+#scrollToTopButton {
+  position: fixed; 
+  bottom: 20px;    
+  left: 20px;      
+  width: 30px;     
+  height: 30px;    
+  display: none;   
+  cursor: pointer; 
 }

@@ -49,11 +49,11 @@
       </div>
       <div class="section__text">
         <h1 class="title">Elisha Mier</h1>
-        <p class="section__text__p2">Software Developer</p>
+        <p class="section__text__p2">Aspiring Software Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/Resume3.pdf')"
+            onclick="window.open('./assets/RESUME_MIER.pdf')"
           >
             Download Resume
           </button>
@@ -78,60 +78,52 @@
       </div>
     </section>
 
-    <!-------------------------- About Me -------------------------->
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/pink.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
+  <!-------------------------- About Me -------------------------->
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/pink.jpg" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <!-- Experience Container -->
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>1 year experience <br />in System Development</p>
+          </div>
+          <!-- Education Container -->
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>Bachelor of Science<br />in Information Technology</p>
+          </div>
+          <!-- Third Container-->
+          <div class="details-container">
+            <img src="./assets/scholar.png" alt="Scholar Icon" class="icon" />
+            <h3>DOST-SEI Scholar</h3>
+            <p>Batch 2022</p>
+          </div>
         </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>1 year <br />System Development</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>Bachelor of Science<br />in Information Technology</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-                I am a 3rd year Information Technology student at the Polytechnic University of the Philippines. 
-                I have a passion for exploring various fields, particularly software development, data management, and
-                system design, graphic design. In addition to my technical interests, I also enjoy painting and sketching.
-                I'm always curious and enjoy trying out new things, whether it's building 
-                them or learning how they work. As I continue to pursue my degree, I look forward to 
-                expanding my knowledge and taking on more challenging projects that push my boundaries. 
-            </p>
-          </div>
+        <div class="text-container">
+          <p>
+            I am a 3rd year Information Technology student at the Polytechnic University of the Philippines. 
+            I have a passion for exploring various fields, particularly software development, data management,
+            system design, and graphic design. In addition to my technical interests, I also enjoy painting and sketching.
+            I'm always curious and enjoy trying out new things, whether it's building 
+            them or learning how they work. As I continue to pursue my degree, I look forward to 
+            expanding my knowledge and taking on more challenging projects that push my boundaries. 
+          </p>
         </div>
       </div>
-      <img
-        src="./assets/arrow_pink.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#skills'"
-      />
-    </section>
+    </div>
+    <img src="./assets/arrow_pink.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'" />
+  </section>
 
-    <!-------------------------- Skills -------------------------->
+
+   <!-------------------------- Skills -------------------------->
     <section id="skills">
       <p class="section__text__p1">Discover My</p>
       <h1 class="title">Skills</h1>
@@ -267,45 +259,87 @@
       />
     </section>
 
-  <!-------------------------- Projects -------------------------->
+<!-------------------------- Projects -------------------------->
+<section id="projects">
+  <section class="project-content">
+      <div class="container">
+          <div class="project-title">
+              <h4>My Projects</h4>
+              <p>Discover my projects I did for my 2nd year of college.</p>
+          </div>
 
-    <section id="projects">
-      <section class="project-content">
-          <div class="container">
-              <div class="project-title">
-                  <h4>My Projects</h4>
-                  <p>Discover my projects I did for my 2nd and 3rd years of college.</p>
-              </div>
-              <div class="projects">
-                  <!-- 1st Project -->  
-                  <div class="project">
-                      <i class="fa fa-coffee"></i>
-                      <h4>Waste Tracker</h4>
-                      <p>This is a simple mobile application designed to help users monitor, manage, and reduce waste.</p>
-                      <div class="btn-container">
-                          <button class="btn btn-color-2" onclick="location.href='https://app.flutterflow.io/project/waste-track-usw3vd'">FlutterFlow</button>
-                      </div>
+          <div class="projects">
+              <!-- 1st Project -->  
+              <div class="project">
+                  <h4>Waste Tracker</h4> 
+                  <div class="project-image">
+                      <img src="./assets/wastetrack.jpg" alt="Waste Tracker" class="project-img">
                   </div>
-                  <!-- 2nd Project -->
-                  <div class="project">
-                      <i class="fa fa-car"></i>
-                      <h4>Hotel Management System</h4>
-                      <p>A system designed to streamline various operational functions within a hotel such as booking, billing, and room management.</p>
-                      <div class="btn-container">
-                          <button class="btn btn-color-2" onclick="location.href='https://github.com/Elishareign/Hotel_Management_System'">Github</button>
-                      </div> 
-                  </div>
-                  <!-- 3rd Project -->
-                  <div class="project">
-                      <i class="fa fa-desktop"></i>
-                      <h4>Audiovisual Rental System</h4>
-                      <p>Software application designed to facilitate management of audiovisual rental services.</p>
-                      <div class="btn-container">
-                          <button class="btn btn-color-2" onclick="location.href='https://github.com/Elishareign/AudioVisualRentalSystem'">Github</button>
-                      </div>
+                  <i class="fa fa-coffee"></i>
+                  <p>This is a simple mobile application designed to help users monitor, manage, and reduce waste.</p>
+                  <div class="btn-container">
+                      <button class="btn btn-color-2" onclick="location.href='https://app.flutterflow.io/project/waste-track-usw3vd'">FlutterFlow</button>
                   </div>
               </div>
-  
+              <!-- 2nd Project -->
+              <div class="project">
+                  <h4>Hotel Management System</h4> 
+                  <div class="project-image">
+                      <img src="./assets/HotelSystem.jpg" alt="Hotel Management System" class="project-img">
+                  </div>
+                  <i class="fa fa-car"></i>
+                  <p>A system designed to streamline various operational functions within a hotel such as booking, billing, and room management.</p>
+                  <div class="btn-container">
+                      <button class="btn btn-color-2" onclick="location.href='https://github.com/Elishareign/Hotel_Management_System'">Github</button>
+                  </div>
+              </div>
+              <!-- 3rd Project -->
+              <div class="project">
+                  <h4>Audiovisual Rental System</h4> 
+                  <div class="project-image">
+                      <img src="./assets/RentalSystem.jpg" alt="Audiovisual Rental System" class="project-img">
+                  </div>
+                  <i class="fa fa-desktop"></i>
+                  <p>Software application designed to facilitate management of audiovisual rental services.</p>
+                  <div class="btn-container">
+                      <button class="btn btn-color-2" onclick="location.href='https://github.com/Elishareign/AudioVisualRentalSystem'">Github</button>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Current Projects Section -->
+          <div class="project-title">
+              <h4>Current Projects</h4>
+              <p>Still on planning stage.</p> 
+          </div>
+          <div class="projects"> 
+              <div class="project"> 
+                  <h4>Integrating POS with Inventory Management System</h4>
+                  <div class="project-image">
+                      <img src="./assets/project_management_tool.jpg" alt="Project Management Tool" class="project-img">
+                  </div>
+                  <i class="fa fa-tasks"></i>
+                  <p>A web application designed to help teams manage their projects efficiently.</p>
+                  <div class="btn-container">
+                      <button class="btn btn-color-2" onclick="location.href='https://github.com/yourusername/project_management_tool'">Github</button>
+                  </div>
+              </div>
+              <div class="project"> 
+                  <h4>Employee Payroll System</h4>
+                  <div class="project-image">
+                      <img src="./assets/fitness_tracker_app.jpg" alt="Fitness Tracker App" class="project-img">
+                  </div>
+                  <i class="fa fa-dumbbell"></i>
+                  <p>An app that allows users to track their fitness goals and monitor progress.</p>
+                  <div class="btn-container">
+                      <button class="btn btn-color-2" onclick="location.href='https://github.com/yourusername/fitness_tracker_app'">Github</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+</section>
+   
   <!-------------------------- Research -------------------------->
               <div class="research-title">
                   <h4>Research</h4>
@@ -342,7 +376,6 @@
       </section>
   </section>
 
-
     <!-------------------------- Contact -------------------------->
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
@@ -378,6 +411,13 @@
         </div>
       </nav>
     </footer>
+    <img 
+    id="scrollToTopButton" 
+    class="scroll-to-top" 
+    src="./assets/up-arrow.png" 
+    alt="Scroll to Top" 
+    style="display: none; cursor: pointer;" 
+    />
     <script src="script.js"></script>
   </body>
 </html>
