@@ -1,0 +1,152 @@
+
+/*-- General --*/
+
+* {
+    box-sizing: border-box;
+    margin: 5;
+    padding: 5;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px 0;
+}
+
+h3 {
+    color: #2980b9;
+}
+.resume-container {
+    display: flex;
+    max-width: 1100px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/*-- Left Container --*/
+
+.sidebar {
+    width: 30%;
+    background-color: #edecec;
+    padding: 20px;
+    padding-right: 20px;
+    text-align: left; 
+}
+
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contact-info img{
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.sidebar h3 {
+    font-size: 1.50rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+.sidebar h3, .sidebar ul {
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.sidebar ul li {
+    font-size: 1rem;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/*-- Main --*/
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h3 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/*-- Profile --*/
+.profile {
+    margin-top: 50px; 
+}
+
+.profile p {
+    font-size: 1.10rem;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+
+/*-- Header --*/
+header {
+    font-size: 2.5rem;
+    color: #2980b9;
+    margin-bottom: 50px; 
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+/*-- Project --*/
+.project h4 {
+    font-size: 1.40rem;
+    color: #2980b9;
+}
+
+.project {
+    margin-bottom: 30px; 
+}
+
+.project p {
+    font-size: 1.10rem;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+

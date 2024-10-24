@@ -6,7 +6,6 @@ function toggleMenu() {
     icon.classList.toggle('open');
   }
   
- // Smooth scroll function
  function smoothScrollTo(element, duration) {
   const targetPosition = element.getBoundingClientRect().top + window.pageYOffset;
   const startPosition = window.pageYOffset;
